@@ -19,7 +19,7 @@ function App() {
   }
 
   useEffect(() => {
-    const timerID = setInterval(() => getTime(), 15000)
+    const timerID = setInterval(() => getTime(), 5000)
     return () => {
       clearInterval(timerID)
     }
