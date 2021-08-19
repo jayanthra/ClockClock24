@@ -57,10 +57,8 @@ body {
 }
 
 .Digit {
-  padding: 10px;
   display: grid;
   grid-template-columns: 42px 42px 42px 42px;
   grid-template-rows: 42px;
   gap: 3px;
-  margin: 10px 5px;
 }
